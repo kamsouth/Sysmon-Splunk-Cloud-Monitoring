@@ -75,7 +75,8 @@ I reviewed information including:
 
 This information can help identify suspicious behavior and understand how processes are launched within an environment.
 
-<img width="1904" height="1011" alt="03-sysmon-data-splunk-cloud" src="https://github.com/user-attachments/assets/5b36eb40-244f-4069-88fc-17110c0a5a41" />
+<img width="1902" height="998" alt="04-sysmon-process-investigation" src="https://github.com/user-attachments/assets/3d4669e3-d36a-425c-8845-f26a9fee2bff" />
+
 
 
 ---
@@ -87,8 +88,7 @@ I also installed Sysmon on **DC01**, the Active Directory domain controller in m
 After installation, I configured the system to forward its Sysmon telemetry to Splunk Cloud and verified that events from DC01 were successfully being aggregated.
 
 This demonstrated that the monitoring setup could collect endpoint telemetry from multiple Windows systems instead of monitoring only a single host.
-
-![DC01 Sysmon Aggregation](images/05-sysmon-dc01-aggregation.png)
+<img width="1889" height="879" alt="05-sysmon-dc01-aggregation" src="https://github.com/user-attachments/assets/886bfd00-ff12-44cc-93b6-670986a9ccce" />
 
 ---
 
@@ -184,7 +184,6 @@ Command-line arguments
 Execution timestamps
 
 This information can help identify suspicious behavior and understand how processes are launched within an environment.
-<img width="1902" height="998" alt="04-sysmon-process-investigation" src="https://github.com/user-attachments/assets/3d4669e3-d36a-425c-8845-f26a9fee2bff" />
 
 
 
