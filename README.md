@@ -53,8 +53,8 @@ After installing Sysmon, I configured the **Splunk Universal Forwarder** to coll
 Once the configuration was complete, I searched Splunk Cloud to confirm that Sysmon telemetry was being successfully received.
 
 This created centralized visibility into activity occurring on the endpoint.
+<img width="1301" height="825" alt="08_Splunk_Universal_Forwarder_Installation_Setup" src="https://github.com/user-attachments/assets/301bfe9a-87a2-49cb-bea2-4ddc84f66083" />
 
-<img width="1904" height="1011" alt="03-sysmon-data-splunk-cloud" src="https://github.com/user-attachments/assets/21e08532-2279-4ed9-ac06-706a2596a96c" />
 
 
 ---
@@ -99,8 +99,8 @@ This ensured that the new Sysmon event collection settings were applied.
 Step 7: Verify Sysmon Events in Splunk Cloud
 
 I installed the Splunk Universal Forwarder on the Windows system so Windows and Sysmon event data could be collected and sent to Splunk Cloud.
-<img width="1301" height="825" alt="08_Splunk_Universal_Forwarder_Installation_Setup" src="https://github.com/user-attachments/assets/301bfe9a-87a2-49cb-bea2-4ddc84f66083" />
 
+<img width="1904" height="1011" alt="03-sysmon-data-splunk-cloud" src="https://github.com/user-attachments/assets/21e08532-2279-4ed9-ac06-706a2596a96c" />
 
 
 Step 8: Validate Windows Log Sources and Hosts
@@ -128,7 +128,8 @@ I reviewed information including:
 
 This information can help identify suspicious behavior and understand how processes are launched within an environment.
 
-<img width="1902" height="998" alt="04-sysmon-process-investigation" src="https://github.com/user-attachments/assets/3d4669e3-d36a-425c-8845-f26a9fee2bff" />
+<img width="1902" height="998" alt="04-sysmon-process-investigation" src="https://github.com/user-attachments/assets/69754b7d-3dd2-4570-ac2f-94d3bf803081" />
+
 
 
 
@@ -141,7 +142,8 @@ I also installed Sysmon on **DC01**, the Active Directory domain controller in m
 After installation, I configured the system to forward its Sysmon telemetry to Splunk Cloud and verified that events from DC01 were successfully being aggregated.
 
 This demonstrated that the monitoring setup could collect endpoint telemetry from multiple Windows systems instead of monitoring only a single host.
-<img width="1301" height="499" alt="05_Splunk_Alert_Multiple_Failed_Windows_Logons" src="https://github.com/user-attachments/assets/2fe6e6d2-eeab-4bfa-ac7d-4098b9af91e2" />
+<img width="1889" height="879" alt="05-sysmon-dc01-aggregation" src="https://github.com/user-attachments/assets/5ce2a2b2-9779-425c-8f35-75021b396158" />
+
 
 
 ---
