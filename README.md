@@ -55,7 +55,8 @@ Once the configuration was complete, I searched Splunk Cloud to confirm that Sys
 
 This created centralized visibility into activity occurring on the endpoint.
 
-![Aggregated Sysmon Data in Splunk Cloud](images/03-sysmon-data-splunk-cloud.png)
+<img width="1904" height="1011" alt="03-sysmon-data-splunk-cloud" src="https://github.com/user-attachments/assets/21e08532-2279-4ed9-ac06-706a2596a96c" />
+
 
 ---
 
@@ -197,7 +198,8 @@ I also installed Sysmon on DC01, the Active Directory domain controller in my la
 After installation, I configured the system to forward its Sysmon telemetry to Splunk Cloud and verified that events from DC01 were successfully being aggregated.
 
 This demonstrated that the monitoring setup could collect endpoint telemetry from multiple Windows systems instead of monitoring only a single host.
-<img width="1889" height="879" alt="05-sysmon-dc01-aggregation" src="https://github.com/user-attachments/assets/852f6c64-f0df-4867-8422-61bc7c54a882" />
+<img width="1889" height="879" alt="05-sysmon-dc01-aggregation" src="https://github.com/user-attachments/assets/886bfd00-ff12-44cc-93b6-670986a9ccce" />
+
 
 
 
