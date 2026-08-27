@@ -1,6 +1,5 @@
 # Sysmon-Splunk-Cloud-Monitoring
 
-# Sysmon + Splunk Cloud Monitoring Lab
 
 ## Overview
 
